@@ -10,10 +10,10 @@
 # ---------------------------------------------------------------------------------------
 base_info:
   # Your blog website title
-  title: Keep Theme
+  title: Liabaer blog
 
   # Your blog website author name
-  author: Keep Team
+  author: Liabaer
 
 # ---------------------------------------------------------------------------------------
 # Theme style settings
@@ -38,7 +38,7 @@ style:
 
   # Font family, customize font family. (you don't usually have to fill)
   # e.g. font_family: STKaiti, STSong, STHeiti
-  font_family:
+  font_family:  STSong, STHeiti
 
   # Mouse hover style settings
   hover:
@@ -52,26 +52,26 @@ style:
     enable: false  # Option values: true | false
 
     # Set transparent background for header.
-    header_transparent: false  # Option values: true | false
+    header_transparent: true  # Option values: true | false
 
     # First screen background image (You can use local image or image external link)
     background_img: /images/bg.svg
 
     # First screen description
     # You can use the "||" to begin a newline, maximum is two lines.
-    description: Keep writing and Keep loving.
+    description: 任何一个你不喜欢又离不开的地方，任何一种你不喜欢又摆脱不了的生活 || 就是监狱。
 
     # If you want to customize the first screen font color, you can fill in here (e.g. "#0066CC")
     # Otherwise use the theme default font color
     font_color:
 
     # If enable hitokoto, first screen description is different every time when you enter the site
-    hitokoto: false  # Option values: true | false
+    hitokoto: true  # Option values: true | false
 
   # Page scroll style settings
   scroll:
     # Show progress bar in top when page scroll
-    progress_bar: false # Option values: true | false
+    progress_bar: true # Option values: true | false
 
     # Show percent when page scroll
     percent: false      # Option values: true | false
@@ -84,31 +84,31 @@ style:
 menu:
   Home: /
   Archives: /archives
-  # Tags: /tags
-  # Categories: /categories
-  # Links: /links
-  # About: /about
-  # Changelog: /changelog
+   Tags: /tags
+   Categories: /categories
+   Links: /links
+   About: /about
+   Changelog: /changelog
   # ......
 
 # ---------------------------------------------------------------------------------------
 # Social contact link
 # ---------------------------------------------------------------------------------------
 social_contact:
-  enable: false      # Option values: true | false
+  enable: true      # Option values: true | false
   links:
     # Fill in your social platform links here, e.g. [ github: https://github.com/XPoet ]
     # If you want to click open the picture, you need to add a prefix "img |",
     # at the same time change your link to the image link.
     # e.g. [ weixin: img | https://x.com/images/wechat.png ] or [ weixin: img | ./images/wechat.png ]
-    github:          # GitHub
+    github: https://github.com/Liabaer # GitHub
     weixin:          # WeChat
     qq:              # QQ
     weibo:           # WeiBo
     zhihu:           # ZhiHu
     twitter:         # Twitter
     facebook:        # Facebook
-    email:           # Email
+    email: renatu0401@163.com # Email
 
 # ---------------------------------------------------------------------------------------
 # Home page article block display settings
@@ -158,24 +158,24 @@ post:
 code_block:
   # Toolbar include: "code copy", "code block collapse" and "code language"
   tools:
-    enable: false            # Option values: true | false
-    style: default           # Option values: default | mac
+    enable: true            # Option values: true | false
+    style: mac           # Option values: default | mac
   highlight_theme: default   # Option values: default | obsidian
 
 # ---------------------------------------------------------------------------------------
 # Table of Contents in the Sidebar
 # ---------------------------------------------------------------------------------------
 toc:
-  enable: false      # Option values: true | false
+  enable: true      # Option values: true | false
 
   # Automatically add list number to toc.
-  number: false      # Option values: true | false
+  number: true      # Option values: true | false
 
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
-  expand_all: false  # Option values: true | false
+  expand_all: true  # Option values: true | false
 
   # If true, open TOC every time when you enter the article page
-  init_open: false   # Option values: true | false
+  init_open: true   # Option values: true | false
 
 # ---------------------------------------------------------------------------------------
 # Website count
@@ -195,8 +195,8 @@ website_count:
 # See: https://github.com/theme-next/hexo-generator-searchdb
 # ---------------------------------------------------------------------------------------
 local_search:
-  enable: false   # Option values: true | false
-  preload: false  # Preload the search data when the page loads. Option values: true | false
+  enable: true   # Option values: true | false
+  preload: true  # Preload the search data when the page loads. Option values: true | false
 
 # ---------------------------------------------------------------------------------------
 # Comment plugin
@@ -264,7 +264,7 @@ cdn:
 # PJAX
 # ---------------------------------------------------------------------------------------
 pjax:
-  enable: false  # Option values: true | false
+  enable: true  # Option values: true | false
 
 # ---------------------------------------------------------------------------------------
 # Footer settings
