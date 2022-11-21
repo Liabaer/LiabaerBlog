@@ -38,7 +38,7 @@ style:
 
   # Font family, customize font family. (you don't usually have to fill)
   # e.g. font_family: STKaiti, STSong, STHeiti
-  font_family:  STSong, STHeiti
+  font_family:  STKaiti
 
   # Mouse hover style settings
   hover:
@@ -49,7 +49,7 @@ style:
 
   # First screen style settings
   first_screen:
-    enable: false  # Option values: true | false
+    enable: true  # Option values: true | false
 
     # Set transparent background for header.
     header_transparent: true  # Option values: true | false
